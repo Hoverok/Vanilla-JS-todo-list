@@ -44,7 +44,7 @@ var todoList = {
   
   //this function toggles status of completed/incompleted todos
   toggleComplete: function(i) {
-   this.todos[i-1].completed=!(this.todos[i].completed); // change bool value of completed
+   this.todos[i-1].completed=!(this.todos[i-1].completed); // change bool value of completed
  view.displayTodos();
   },
   
